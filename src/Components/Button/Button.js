@@ -7,14 +7,15 @@ const Button = () => {
   const [open, setOpen] = useState(false)
 
   const showMenu = () => {
-      setOpen(!open)
+    setOpen(!open)
   }
   
   return (
     <>
       <StyledButton 
         open={open} 
-        onClick={showMenu}>
+        onClick={showMenu}
+      >
         <div />
         <div />
         <div />
@@ -35,6 +36,7 @@ const StyledButton = styled.div`
   right: 8%;
   z-index: 20;
   display: none;
+  cursor: pointer;
 
   @media (max-width: 768px) {
     display: flex;

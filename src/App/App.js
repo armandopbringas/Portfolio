@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header/Header'
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

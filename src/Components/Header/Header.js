@@ -3,6 +3,7 @@ import Button from '../Button/Button'
 import styled from 'styled-components'
 
 const Header = () => {
+
   return (
     <Nav className='header'>
       <div>
@@ -32,7 +33,8 @@ const Header = () => {
       </div>
       <Button />
     </Nav>
-  );
+  )
+
 }
 
 export default Header
@@ -41,6 +43,7 @@ const Nav = styled.nav`
   height: 15vh;
   display: flex;
   align-items: center;
+  padding: 0 2em;
   justify-content: space-between;
  
   .who {
@@ -82,5 +85,4 @@ const Nav = styled.nav`
       display: none;    
     }
   }
-
 `
