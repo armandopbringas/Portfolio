@@ -1,10 +1,13 @@
-import React from 'react';
-import Header from '../Components/Header/Header'
+import React from 'react'
+import Layout from '../Components/Layout/Layout'
+import About from '../Components/About/About'
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Layout>
+        <About />
+      </Layout>
     </>
   );
 }
