@@ -16,9 +16,11 @@ const Button = () => {
         open={open} 
         onClick={showMenu}
       >
-        <div />
-        <div />
-        <div />
+        <div
+          className='button'
+        >
+          +
+        </div>
       </StyledButton>
       <Menu open={open}/>
     </>
