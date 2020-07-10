@@ -7,7 +7,7 @@ export const ToggleMenu = styled.ul`
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   bottom: 0;
   right: 0;
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   transition: transform 0.3s ease-in-out;
 
