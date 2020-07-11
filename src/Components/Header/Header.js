@@ -1,40 +1,44 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../Button/Button'
 import { Nav } from './HeaderStyles'
 
 const Header = () => {
 
   return (
-    <Nav className='header'>
-      <div>
-        <div className='who'>
-          <h4>Armando Bringas</h4>
-          <p>Frontend Developer</p>
-        </div>
+    <Nav>
+      <div className='Nav__title'>
+        <h4>Armando Bringas</h4>
+        <p>Frontend Developer</p>
       </div>
-      <div className='menuContainer'>
-        <ul className='menu__list'>
+      <div className='Nav__menuContainer'>
+        <ul className='Nav__menuList'>
             <li>
-              <div className='menu__list--item' to='/'>
+              <Link
+               to='/'
+               className='Nav__menuList--item'>
                 About
-              </div>
+              </Link>
             </li>
             <li>
-              <div className='menu__list--item' to='/projects'>
+              <Link
+               to='/projects'
+               className='Nav__menuList--item'>
                 Projects
-              </div>
+              </Link>
             </li>
             <li>
-              <div className='menu__list--item' to='/contact'>
+              <Link
+               to='/contact'
+               className='Nav__menuList--item'>
                 Contact
-              </div>
+              </Link>
             </li>
         </ul>
       </div>
       <Button />
     </Nav>
   )
-
 }
 
 export default Header

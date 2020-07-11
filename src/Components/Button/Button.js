@@ -17,7 +17,7 @@ const Button = () => {
         onClick={showMenu}
       >
         <div
-          className='button'
+          className='buttonContainer'
         >
           +
         </div>

@@ -1,10 +1,10 @@
 import React from 'react'
-import About from '../../Components/About/About'
+import Repos from '../../Components/Repos/Repos'
 
 const Home = () => {
     return(
         <>
-            <About />
+            <Repos />
         </>
     )
 }

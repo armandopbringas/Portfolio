@@ -29,7 +29,7 @@ time, mark, audio, video {
 }
 
 /* make sure to set some focus styles for accessibility */
-:focus {
+focus {
     outline: 0;
 }
 
@@ -166,7 +166,7 @@ figure {
 
 /**
  * Correct margin displayed oddly in IE 6/7.
- */
+*/
 
 form {
     margin: 0;

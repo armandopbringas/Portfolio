@@ -11,18 +11,16 @@ export const ToggleMenu = styled.ul`
   width: 100vw;
   transition: transform 0.3s ease-in-out;
 
-  .menuList {
-      height: 100%; 
-      display: flex;
-      line-height: 10em;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  .ToogleMenu_list {
+    height: 100%; 
+    display: flex;
+    line-height: 10em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-      li {
-          font-size: 1.5rem;
-      }
-
+    li {
+        font-size: 1.5rem;
+    }
   }
-
 `

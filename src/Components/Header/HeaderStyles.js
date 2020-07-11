@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   padding: 0 2em;
   justify-content: space-between;
  
-  .who {
+  .Nav__title {
     max-width: 100%;
     margin-left: 2em;
     line-height: 2em;
@@ -23,10 +23,10 @@ export const Nav = styled.nav`
     }
   }
 
-  .menuContainer {
+  .Nav__menuContainer {
     margin-right: 2.5%;
 
-    .menu__list {
+    .Nav__menuList {
       display: flex;
     } 
 
@@ -36,13 +36,17 @@ export const Nav = styled.nav`
       text-decoration: none;
     }
 
-    .menu__list--item {
+    a:focus {
+      outline: none;
+    }
+
+    .Nav__menuList--item {
       font-size: 18px;
     }
   }
  
   @media screen and (max-width: 768px) {
-    .menuContainer {
+    .Nav__menuContainer {
       display: none;    
     }
   }
