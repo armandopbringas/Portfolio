@@ -10,7 +10,7 @@ export const StyledButton = styled.div`
 
   .buttonContainer {
     font-size: 3.5em;
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
   }
 

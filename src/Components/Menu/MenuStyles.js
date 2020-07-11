@@ -9,7 +9,7 @@ export const ToggleMenu = styled.ul`
   right: 0;
   height: 85vh;
   width: 100vw;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 
   .ToogleMenu_list {
     height: 100%; 
@@ -21,6 +21,15 @@ export const ToggleMenu = styled.ul`
 
     li {
         font-size: 1.5rem;
+
+      a:focus {
+        outline: none;
+      }
+
+      .ToggleMenu_item {
+        text-decoration: none;
+      }
+
     }
   }
 `
