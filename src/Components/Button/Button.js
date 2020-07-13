@@ -5,18 +5,14 @@ import Menu from '../Menu/Menu'
 const Button = () => {
 
   const [open, setOpen] = useState(false)
-
-  const showMenu = () => {
-    setOpen(!open)
-  }
   
   return (
     <>
       <StyledButton 
         open={open} 
-        onClick={showMenu}
       >
         <div
+          onClick={() => setOpen(!open)}
           className='buttonContainer'
         >
           +

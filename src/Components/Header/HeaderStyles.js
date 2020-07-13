@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  height: 15vh;
   display: flex;
   align-items: center;
-  padding: 0 2em;
+  padding: 2em;
   justify-content: space-between;
  
   .Nav__title {

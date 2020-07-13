@@ -5,9 +5,9 @@ export const ToggleMenu = styled.ul`
   background-color: #141414;
   position: fixed;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-  bottom: 0;
+  bottom: 7.5em;
   right: 0;
-  height: 85vh;
+  height: 70vh;
   width: 100vw;
   transition: transform 0.5s ease-in-out;
 
