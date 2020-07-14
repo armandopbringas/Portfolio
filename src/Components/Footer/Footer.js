@@ -4,9 +4,7 @@ import { FooterContainer } from './FooterStyles'
 const Footer = () => {
     return (
         <FooterContainer>
-            <div>
-                <span>Copyright© {new Date().getFullYear()}, Armando Bringas</span>
-            </div>
+            <span>Copyright© {new Date().getFullYear()}, Armando Bringas</span>
         </FooterContainer>
     )
 }

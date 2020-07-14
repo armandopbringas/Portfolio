@@ -40,11 +40,11 @@ export const Nav = styled.nav`
     }
 
     .Nav__menuList--item {
-      font-size: 1.5em;
+      font-size: 1.25em;
     }
   }
  
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .Nav__menuContainer {
       display: none;    
     }

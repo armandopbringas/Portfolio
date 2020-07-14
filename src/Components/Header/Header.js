@@ -31,7 +31,7 @@ const Header = () => {
               <a 
                 target='_blank' 
                 rel='noopener noreferrer'
-                href='https://www.linkedin.com/in/armando-p%C3%A9rez-bringas/'
+                href='https://www.linkedin.com/in/armando-perez-bringas/'
               >
                 <FaLinkedin className='Linkedin-sm' />
               </a>

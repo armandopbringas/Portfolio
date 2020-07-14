@@ -4,4 +4,9 @@ export const FooterContainer =  styled.footer`
  display: flex;
  align-items: center;
  padding: 2em;
+
+ span {
+     margin-left: 2em;
+ }
+
 `
