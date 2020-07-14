@@ -27,11 +27,11 @@ export const Nav = styled.nav`
 
     .Nav__menuList {
       display: flex;
+      align-items: center;
     } 
 
-    a, li {
-      margin: 0;
-      padding: 0 1.25em;
+    li {
+      margin: 0 1.5em;
       text-decoration: none;
     }
 
@@ -40,11 +40,11 @@ export const Nav = styled.nav`
     }
 
     .Nav__menuList--item {
-      font-size: 18px;
+      font-size: 1.5em;
     }
   }
  
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .Nav__menuContainer {
       display: none;    
     }

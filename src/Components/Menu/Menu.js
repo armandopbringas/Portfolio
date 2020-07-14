@@ -1,5 +1,6 @@
 import React from 'react'
 import { ToggleMenu } from './MenuStyles'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const Menu = ({ open }) => {
 
@@ -10,17 +11,34 @@ const Menu = ({ open }) => {
         <li
           className='ToggleMenu_item'
         >
-          About
+          <a
+            target='_blank' 
+            rel='noopener noreferrer'
+            href='https://github.com/armandopbringas'
+          >
+            <FaGithub className='GitHub-sm' />
+          </a>
         </li>
         <li
           className='ToggleMenu_item'
         >
-          Projects
+          <a 
+            target='_blank' 
+            rel='noopener noreferrer'
+            href='https://www.linkedin.com/in/armando-p%C3%A9rez-bringas/'
+          >
+            <FaLinkedin className='Linkedin-sm' />
+          </a>
         </li>
         <li
           className='ToggleMenu_item'
         >
-          Contact
+          <a 
+            rel='noopener noreferrer'
+            href='mailto:bringas.armandop@gmail.com'
+          >
+            <FaEnvelope className='mailIcon' />
+          </a>
         </li>
       </ul>
     </ToggleMenu>

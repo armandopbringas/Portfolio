@@ -14,7 +14,7 @@ export const StyledButton = styled.div`
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     display: block;
   }
 `

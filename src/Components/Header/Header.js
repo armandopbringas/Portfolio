@@ -3,7 +3,6 @@ import Button from '../Button/Button'
 import { Nav } from './HeaderStyles'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
-
 const Header = () => {
 
   return (
@@ -36,17 +35,16 @@ const Header = () => {
               >
                 <FaLinkedin className='Linkedin-sm' />
               </a>
-
             </li>
             <li
               className='Nav__menuList--item'
             >
-               <a 
-                  rel='noopener noreferrer'
-                  href='mailto:bringas.armandop@gmail.com'
-                >
-                  <FaEnvelope className='mailIcon' />
-                </a>
+              <a 
+                rel='noopener noreferrer'
+                href='mailto:bringas.armandop@gmail.com'
+              >
+                <FaEnvelope className='mailIcon' />
+              </a>
             </li>
         </ul>
       </div>

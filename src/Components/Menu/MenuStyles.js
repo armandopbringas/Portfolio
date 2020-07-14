@@ -8,26 +8,23 @@ export const ToggleMenu = styled.ul`
   bottom: 7.5em;
   right: 0;
   height: 70vh;
-  width: 100vw;
+  width: 22%;
   transition: transform 0.5s ease-in-out;
 
   .ToogleMenu_list {
-    height: 100%; 
+    height: 50%; 
     display: flex;
-    line-height: 10em;
+    line-height: 5em;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
-    li {
-        font-size: 1.5rem;
+    .ToggleMenu_item, li {
+      text-decoration: none;
 
-      a:focus {
-        outline: none;
-      }
-
-      .ToggleMenu_item {
-        text-decoration: none;
+      .GitHub-sm,
+      .Linkedin-sm,
+      .mailIcon {
+        font-size: 1em;
       }
 
     }
