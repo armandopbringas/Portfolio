@@ -5,6 +5,10 @@ import Menu from '../Menu/Menu'
 const Button = () => {
 
   const [open, setOpen] = useState(false)
+
+  const showMenu = () => {
+    setOpen(!open)
+  }
   
   return (
     <>
@@ -12,7 +16,7 @@ const Button = () => {
         open={open} 
       >
         <div
-          onClick={() => setOpen(!open)}
+          onClick={showMenu}
           className='buttonContainer'
         >
           +
