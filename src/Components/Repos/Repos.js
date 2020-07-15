@@ -1,12 +1,10 @@
 import React from 'react'
 import { ReposContainer } from './ReposStyles'
 
-const Repos = () => {
+const Repos = ({ title }) => {
     return (
         <ReposContainer>
-            <div>
-                <h1>Here gose my repos</h1>
-            </div>
+            <h1>{ title }</h1>
         </ReposContainer>
     )
 }

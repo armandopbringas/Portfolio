@@ -13,6 +13,9 @@ h1 {
  margin-bottom: 0.75em;
  font-size: 1.5em;
  font-weight: 400;
- justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    align-items: flex-start;
 }
 `

@@ -18,6 +18,7 @@ width: 75%;
   p {
     margin: 0.5em 0;
   }
+
   .skill__bar {
     width: 100%;
     height: 0.5em;
@@ -26,12 +27,14 @@ width: 75%;
     border-radius: 0.5em;
     background-color: #D0D0D0;
   }
+
   .skill__level {
     height: 0.5em;
     border-radius: 0.5em;
     background-color: #171717;
     width: ${p => p.level || 0}%;
   }
+  
   @media (max-width: 768px) {
     width: 100%;
   }
