@@ -15,8 +15,8 @@ module.exports = {
         level: 50
       },
       {
-        name: 'Javascript',
-        level: 35
+        name: 'JavaScript',
+        level: 40
       },
       {
         name: 'Sass',

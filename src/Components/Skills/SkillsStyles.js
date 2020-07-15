@@ -1,21 +1,18 @@
 import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
-width: 75%;
+width: 100%;
 padding: 2em;
 margin-right: 2em;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 
 h1 {
  display: flex;
- margin: 0;
- font-size: 24px;
- font-weight: 500;
+ margin-bottom: 0.75em;
+ font-size: 1.5em;
+ font-weight: 400;
  justify-content: flex-end;
-}
-
-@media (max-width: 768px) {
- h1 {
-    font-size: 18px;
- }
 }
 `

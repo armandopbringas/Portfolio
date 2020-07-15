@@ -13,7 +13,7 @@ const Bar = ({ className, name, level }) => {
 }
 
 export default styled(Bar)`
-  width: 100%;
+width: 75%;
 
   p {
     margin: 0.5em 0;
@@ -33,9 +33,6 @@ export default styled(Bar)`
     width: ${p => p.level || 0}%;
   }
   @media (max-width: 768px) {
-    p {
-      font-size: 12px;
-    }
-    
+    width: 100%;
   }
 `
