@@ -11,13 +11,12 @@ const Menu = ({ open }) => {
         <li
           className='ToggleMenu_item'
         >
-          <a
-            target='_blank' 
+          <a 
             rel='noopener noreferrer'
-            href='https://github.com/armandopbringas'
+            href='mailto:bringas.armandop@gmail.com'
           >
-            <FaGithub className='GitHub-sm' />
-            <span>@armandopbringas</span>
+            <FaEnvelope className='ToggleMenu__mailIcon' />
+            <span>bringas.armandop@gmail.com</span>
           </a>
         </li>
         <li
@@ -28,19 +27,20 @@ const Menu = ({ open }) => {
             rel='noopener noreferrer'
             href='https://www.linkedin.com/in/armando-p%C3%A9rez-bringas/'
           >
-            <FaLinkedin className='Linkedin-sm' />
+            <FaLinkedin className='ToggleMenu__LinkedinIcon' />
             <span>armandopbringas</span>
           </a>
         </li>
         <li
           className='ToggleMenu_item'
         >
-          <a 
+          <a
+            target='_blank' 
             rel='noopener noreferrer'
-            href='mailto:bringas.armandop@gmail.com'
+            href='https://github.com/armandopbringas'
           >
-            <FaEnvelope className='mailIcon' />
-            <span>bringas.armandop@gmail.com</span>
+            <FaGithub className='ToggleMenu__GHIcon' />
+            <span>@armandopbringas</span>
           </a>
         </li>
       </ul>

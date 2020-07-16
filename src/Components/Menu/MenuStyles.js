@@ -5,7 +5,7 @@ export const ToggleMenu = styled.ul`
   background-color: #141414;
   position: fixed;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-  top: 7em;
+  top: 8em;
   right: 0;
   height: 45vh;
   width: 100vw;
@@ -14,22 +14,22 @@ export const ToggleMenu = styled.ul`
   .ToogleMenu_list {
     height: 100%; 
     display: flex;
-    line-height: 5em;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    line-height: 5em;
+    margin-left: 1em;
 
-    .ToggleMenu_item {
+    .ToggleMenu_item, li, a {
       text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0.5em;
 
-      .ToggleMenu_item, li, a {
-        font-size: 1.25em;
-      }
-
-      .GitHub-sm,
-      .Linkedin-sm,
-      .mailIcon {
-        font-size: 1em;
+      .ToggleMenu__mailIcon,
+      .ToggleMenu__LinkedinIcon,
+      .ToggleMenu__GHIcon {
+        margin-right: 0.5em;
       }
 
     }

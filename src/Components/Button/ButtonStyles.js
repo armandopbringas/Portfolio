@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const StyledButton = styled.div`
-  position: absolute;
+  position: fixed;
   top: 2em;
-  right: 3em;
+  right: 4.5em;
   z-index: 20;
   display: none;
   cursor: pointer;

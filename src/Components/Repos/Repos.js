@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Repo from '../Repo/Repo'
 import { ReposContainer } from './ReposStyles'
 
-const Repos = ({ title }) => {
+const Repos = () => {
 
     const [repo, setRepo] = useState([])
     const [repoCount, setRepoCount] = useState([])
