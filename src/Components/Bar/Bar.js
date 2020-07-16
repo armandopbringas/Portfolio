@@ -24,6 +24,7 @@ width: 75%;
     height: 0.5em;
     padding: 1px;
     opacity: 0.75;
+    z-index: 0;
     border-radius: 0.5em;
     background-color: #D0D0D0;
   }

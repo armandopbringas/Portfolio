@@ -5,17 +5,18 @@ export const ToggleMenu = styled.ul`
   background-color: #141414;
   position: fixed;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-  bottom: 8em;
+  top: 7em;
   right: 0;
-  height: 70vh;
-  width: 17%;
+  height: 45vh;
+  width: 100vw;
   transition: transform 0.5s ease-in-out;
 
   .ToogleMenu_list {
-    height: 60%; 
+    height: 100%; 
     display: flex;
     line-height: 5em;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     .ToggleMenu_item {

@@ -17,6 +17,7 @@ const Menu = ({ open }) => {
             href='https://github.com/armandopbringas'
           >
             <FaGithub className='GitHub-sm' />
+            <span>@armandopbringas</span>
           </a>
         </li>
         <li
@@ -28,6 +29,7 @@ const Menu = ({ open }) => {
             href='https://www.linkedin.com/in/armando-p%C3%A9rez-bringas/'
           >
             <FaLinkedin className='Linkedin-sm' />
+            <span>armandopbringas</span>
           </a>
         </li>
         <li
@@ -38,6 +40,7 @@ const Menu = ({ open }) => {
             href='mailto:bringas.armandop@gmail.com'
           >
             <FaEnvelope className='mailIcon' />
+            <span>bringas.armandop@gmail.com</span>
           </a>
         </li>
       </ul>

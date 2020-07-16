@@ -14,38 +14,38 @@ const Header = () => {
       <Button />
       <div className='Nav__menuContainer'>
         <ul className='Nav__menuList'>
-            <li
-              className='Nav__menuList--item'
+          <li
+            className='Nav__menuList--item'
+          >
+            <a 
+              rel='noopener noreferrer'
+              href='mailto:bringas.armandop@gmail.com'
             >
-              <a
-                target='_blank' 
-                rel='noopener noreferrer'
-                href='https://github.com/armandopbringas'
-              >
-                <FaGithub className='GitHub-sm' />
-              </a>
-            </li>
-            <li 
-              className='Nav__menuList--item'
+              <FaEnvelope className='mailIcon' />
+            </a>
+          </li>
+          <li 
+            className='Nav__menuList--item'
+          >
+            <a 
+              target='_blank' 
+              rel='noopener noreferrer'
+              href='https://www.linkedin.com/in/armandopbringas'
             >
-              <a 
-                target='_blank' 
-                rel='noopener noreferrer'
-                href='https://www.linkedin.com/in/armando-perez-bringas/'
-              >
-                <FaLinkedin className='Linkedin-sm' />
-              </a>
-            </li>
-            <li
-              className='Nav__menuList--item'
+              <FaLinkedin className='Linkedin-sm' />
+            </a>
+          </li>
+          <li
+            className='Nav__menuList--item'
+          >
+            <a
+              target='_blank' 
+              rel='noopener noreferrer'
+              href='https://github.com/armandopbringas'
             >
-              <a 
-                rel='noopener noreferrer'
-                href='mailto:bringas.armandop@gmail.com'
-              >
-                <FaEnvelope className='mailIcon' />
-              </a>
-            </li>
+              <FaGithub className='GitHub-sm' />
+            </a>
+          </li>
         </ul>
       </div>
     </Nav>
