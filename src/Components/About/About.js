@@ -8,7 +8,7 @@ const About = () => {
     return(
         <AboutContainer>
             <Description 
-                title='Hi there!'
+	      title='Hi there!'
                 text={dataContent.aboutDescription}
                 />
             <div className='skills__container'>
