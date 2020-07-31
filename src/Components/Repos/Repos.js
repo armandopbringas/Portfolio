@@ -35,14 +35,16 @@ const Repos = () => {
 
     return (
         <ReposContainer>
-            <div className='repos__container'>
-                <h1>My latest repositories</h1>
+            <div className='reposContainer'>
+                <h1 className='reposTitle'>
+                    My latest repositories
+                </h1>
                 <ul>
                     {
                         repo.map((repo) => {
                             return <Repo 
-                                        key={repo.id}
                                         resp={repo}
+                                        key={repo.id}
                                     />
                         }) 
                     }
@@ -50,7 +52,7 @@ const Repos = () => {
                 <a
                     target='_blank' 
                     rel='noopener noreferrer'
-                    className='repo__link'
+                    className='reposLink'
                     href='https://github.com/armandopbringas?tab=repositories'
                 >
                     see more on GitHub { repoCount }

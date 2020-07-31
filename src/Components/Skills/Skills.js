@@ -5,7 +5,7 @@ import { SkillsContainer } from './SkillsStyles'
 const Skills = ({ className, title = 'Skills', skills = [] }) => {
     return (
         <SkillsContainer className={className}>
-            <h1>{title}</h1>
+            <h1 className='skillsTitle'>{title}</h1>
             {skills.map(skill => (
                 <Bar 
                     key={skill.name} 

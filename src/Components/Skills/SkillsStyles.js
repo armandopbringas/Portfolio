@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
 width: 100%;
-padding: 2em;
-margin-right: 2em;
+height: 100%; 
 display: flex;
-flex-direction: column;
+margin: 0 2rem;
 align-items: flex-end;
+flex-direction: column;
+justify-content: center;
 
-h1 {
+.skillsTitle {
  display: flex;
  margin-bottom: 0.75em;
  font-size: 1.5em;
@@ -16,6 +17,8 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    align-items: flex-start;
+    .skillsTitle {
+        font-size: 1rem;
+    }
 }
 `

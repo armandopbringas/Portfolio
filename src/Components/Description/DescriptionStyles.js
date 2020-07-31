@@ -1,26 +1,45 @@
 import styled from 'styled-components'
 
 export const DescriptionStyles = styled.div`
-text-align: start;
-margin: 0 2em;
+height: 100%;
+display: flex;
+margin: 0 2rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
 
-.description__container {
+.descriptionTitle {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.75em;
+}
+
+.descriptionText {
     width: 75%;
+    line-height: 1.5rem;
+}
 
-    h1 {
-        font-weight: 400;
-        margin-bottom: 0.75em;
-        font-size: 1.5em;
-    }
-
-    p {
-        line-height: 1.5em;
+@media screen and (max-width: 900px) {
+    .descriptionText {
+        width: 85%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .description__container {
+    .descriptionText {
         width: 100%;
     }
+
+    .descriptionTitle {
+        font-size: 1rem;
+    }
+
+    .descriptionText {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    justify-content: flex-start;
 }
 `

@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
-export const AboutContainer = styled.div`
+export const MainContainer = styled.div`
+height: 70vh;
+padding: 0 2rem;
 display: flex;
-padding: 2em;
 flex-direction: column;
 justify-content: center;
 align-items: center;

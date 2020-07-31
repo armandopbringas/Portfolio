@@ -1,54 +1,52 @@
 import React from 'react'
 import Button from '../Button/Button'
-import { Nav } from './HeaderStyles'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { HeaderContanier } from './HeaderStyles'
 
 const Header = () => {
 
   return (
-    <Nav>
-      <div className='Nav__title'>
-        <h4>Armando Bringas</h4>
-        <p>Frontend Developer</p>
+    <HeaderContanier>
+      <div className='headerTitle_container'>
+        <h4 className='headerTitle_name'>Armando Bringas</h4>
+        <p className='headerTitle_title'>Frontend Developer</p>
       </div>
       <Button />
-      <div className='Nav__menuContainer'>
-        <ul className='Nav__menuList'>
+      <nav className='navMenu_container'>
+        <ul className='navMenulist'>
           <li
-            className='Nav__menuList--item'
+            className='navMenuist_item'
           >
-            <a 
-              rel='noopener noreferrer'
-              href='mailto:bringas.armandop@gmail.com'
+            <Link
+              to='/'
+              className='navMenuist_link'
             >
-              <FaEnvelope className='mailIcon' />
-            </a>
+              About
+            </Link>
           </li>
           <li 
-            className='Nav__menuList--item'
+            className='navMenuist_item'
           >
-            <a 
-              target='_blank' 
-              rel='noopener noreferrer'
-              href='https://www.linkedin.com/in/armandopbringas'
+            <Link
+              to='/projects'
+              className='navMenuist_link'
             >
-              <FaLinkedin className='Linkedin-sm' />
-            </a>
+              Projects
+            </Link>
           </li>
           <li
-            className='Nav__menuList--item'
+            className='navMenuist_item'
           >
-            <a
-              target='_blank' 
-              rel='noopener noreferrer'
-              href='https://github.com/armandopbringas'
+            <Link
+              to='/'
+              className='navMenuist_link'
             >
-              <FaGithub className='GitHub-sm' />
-            </a>
+              Contact
+            </Link>
           </li>
         </ul>
-      </div>
-    </Nav>
+      </nav>
+    </HeaderContanier>
   )
 }
 

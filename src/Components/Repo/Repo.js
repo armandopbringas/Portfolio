@@ -5,25 +5,24 @@ const Repo = ({ resp }) => {
     return (
         <RepoContainer>
             <div
-                className='repo__content'
+                className='repoContent'
             >
                 <a
-                    href={resp.html_url}
                     target='_blank' 
+                    className='repoLink'
+                    href={resp.html_url}
                     rel='noopener noreferrer'
                 >
                     {resp.name}
                 </a>
-                <p>
+                <p className='repoDescription'>
                     {resp.description} 
                 </p>
-                <p>
+                <p className='repoUpdate'>
                     Updated: {new Date(resp.updated_at).toUTCString()}
                 </p>
             </div>
-            <div
-                className='line'
-            />
+            <hr />
         </RepoContainer>
     )
 }

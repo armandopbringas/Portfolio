@@ -1,27 +1,32 @@
 import styled from 'styled-components'
 
 export const RepoContainer = styled.li`
-margin: 1em 0;
-width: 100%;
 
-.repo__content {
-    a {
-        margin: 1em 0;
+.repoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .repoLink {
+        margin: 0.5rem 0;
         font-weight: 400;
         text-decoration: none;
-        font-size: 1.25em;
     }
 
-    p{
-        margin: 1em 0;
+    .repoUpdate,
+    .repoDescription {
+        margin: 0.25rem 0;
     }
-}
 
-.line {
-    content: '';
-    height: 1px;
-    width: 97.5%;
-    background-color: #ccc;
-    z-index: 10;
+    @media screen and (max-width: 768px) {
+        .repoLink {
+            font-size: 0.8rem
+        }
+    }
+        .repoUpdate, 
+        .repoDescription {
+            font-size: 0.8rem;
+        }
 }
 `

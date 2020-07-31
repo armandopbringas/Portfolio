@@ -1,8 +1,8 @@
 import React from 'react'
 import { ToggleMenu } from './MenuStyles'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
-const Menu = ({ open }) => {
+const Menu = ({ open, showMenu }) => {
 
 
   return (
@@ -11,37 +11,35 @@ const Menu = ({ open }) => {
         <li
           className='ToggleMenu_item'
         >
-          <a 
-            rel='noopener noreferrer'
-            href='mailto:bringas.armandop@gmail.com'
+          <Link 
+            to='/'
+            onClick={showMenu}
+            className='toggleMenu_link'
           >
-            <FaEnvelope className='ToggleMenu__mailIcon' />
-            <span>bringas.armandop@gmail.com</span>
-          </a>
+            About
+          </Link>
         </li>
         <li
           className='ToggleMenu_item'
         >
-          <a 
-            target='_blank' 
-            rel='noopener noreferrer'
-            href='https://www.linkedin.com/in/armando-p%C3%A9rez-bringas/'
+          <Link 
+            to='/projects'
+            onClick={showMenu}
+            className='toggleMenu_link'
           >
-            <FaLinkedin className='ToggleMenu__LinkedinIcon' />
-            <span>armandopbringas</span>
-          </a>
+            Projects
+          </Link>
         </li>
         <li
           className='ToggleMenu_item'
         >
-          <a
-            target='_blank' 
-            rel='noopener noreferrer'
-            href='https://github.com/armandopbringas'
+          <Link
+            to='/'
+            onClick={showMenu}
+            className='toggleMenu_link'
           >
-            <FaGithub className='ToggleMenu__GHIcon' />
-            <span>@armandopbringas</span>
-          </a>
+            Contact
+          </Link>
         </li>
       </ul>
     </ToggleMenu>

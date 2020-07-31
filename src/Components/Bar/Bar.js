@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Bar = ({ className, name, level }) => {
   return (
     <div className={className}>
-      <p htmlFor={`${name}-bar`}>{name}</p>
+      <p className='skill__name' htmlFor={`${name}-bar`}>{name}</p>
       <div id={`${name}-bar`} className='skill__bar'>
         <div className='skill__level'></div>
       </div>
@@ -15,7 +15,7 @@ const Bar = ({ className, name, level }) => {
 export default styled(Bar)`
 width: 75%;
 
-  p {
+  .skill__name {
     margin: 0.5em 0;
   }
 
@@ -35,8 +35,12 @@ width: 75%;
     background-color: #171717;
     width: ${p => p.level || 0}%;
   }
-  
-  @media (max-width: 768px) {
+
+  @media screen and (max-width: 768px) {
     width: 100%;
+
+    .skill__name {
+      font-size: 0.8rem;
+    }
   }
 `

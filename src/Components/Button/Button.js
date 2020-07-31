@@ -22,7 +22,10 @@ const Button = () => {
           +
         </div>
       </StyledButton>
-      <Menu open={open}/>
+      <Menu 
+        open={open}
+        showMenu={showMenu}
+      />
     </>
   )
 

@@ -1,52 +1,57 @@
 import styled from 'styled-components'
 
-export const Nav = styled.nav`
+export const HeaderContanier = styled.header`
+  height: 15vh;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
-  padding: 2em;
   justify-content: space-between;
  
-  .Nav__title {
+  .headerTitle_container {
     max-width: 100%;
-    margin-left: 2em;
-    line-height: 2em;
-
-    h4 {
-      font-size: 1em;
-      font-weight: 400;
-    }
-
-    p {
-      width: 100%;
-      font-size: 0.8em;
-    }
+    margin-left: 2rem;
+    line-height: 2rem;
   }
 
-  .Nav__menuContainer {
-    margin-right: 2.5%;
+  .headerTitle_name {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 
-    .Nav__menuList {
-      display: flex;
-      align-items: center;
-    } 
+  .headerTitle_title {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .navMenu_container {
+    display: block;
+    margin-right: 2rem;
+  }
 
-    li {
-      margin: 0 1.5em;
-      text-decoration: none;
-    }
+  .navMenulist {
+    display: flex;
+    align-items: center;
+  } 
 
-    a:focus {
-      outline: none;
-    }
+  .navMenuist_item {
+    margin: 0 1.5rem;
+  }
 
-    .Nav__menuList--item {
-      font-size: 1.25em;
-    }
+  .navMenuist_item:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .navMenuist_link {
+    text-decoration: none;
   }
  
+  .navMenuist_link:focus {
+    outline: none;
+  }
+
   @media screen and (max-width: 768px) {
-    .Nav__menuContainer {
-      display: none;    
+    .navMenu_container {
+      display: none;
     }
   }
 `

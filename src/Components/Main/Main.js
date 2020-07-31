@@ -2,23 +2,23 @@ import React from 'react'
 import Description from '../Description/Description'
 import Skills from '../Skills/Skills'
 import dataContent from '../../Data/dataContent'
-import { AboutContainer } from './AboutStyles'
+import { MainContainer } from './MainStyles'
 
-const About = () => {
+const Main = () => {
     return(
-        <AboutContainer>
+        <MainContainer>
             <Description 
-	      title='Hi there!'
+	            title='Hi there!'
                 text={dataContent.aboutDescription}
-                />
+            />
             <div className='skills__container'>
                 <Skills 
                     title='My technologies stack'
                     skills={dataContent.skills}
             />
             </div>
-        </AboutContainer>
+        </MainContainer>
     )
 }
 
-export default About
+export default Main
