@@ -42,4 +42,15 @@ align-items: flex-start;
 @media screen and (max-width: 600px) {
     justify-content: flex-start;
 }
+
+@media screen and (max-width: 425px) {
+
+    .descriptionTitle {
+        font-size: 0.8rem;
+    }
+
+    .descriptionText {
+        font-size: 0.6rem;
+    }
+}
 `

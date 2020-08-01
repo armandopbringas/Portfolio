@@ -21,4 +21,10 @@ justify-content: center;
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .skillsTitle {
+        font-size: 0.8rem;
+    }
+}
 `

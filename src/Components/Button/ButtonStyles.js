@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const StyledButton = styled.div`
-  right: 1rem;
+  right: 2.5rem;
   z-index: 1000;
-  display: none;
+  display: block;
   cursor: pointer;
   position: relative;
 
@@ -13,7 +13,7 @@ export const StyledButton = styled.div`
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
   }
 
-  @media screen and (max-width: 768px) {
-    display: block;
+  @media screen and (max-width: 600px) {
+    right: 1rem;
   }
 `

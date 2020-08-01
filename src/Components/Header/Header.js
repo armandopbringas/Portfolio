@@ -7,10 +7,13 @@ const Header = () => {
 
   return (
     <HeaderContanier>
-      <div className='headerTitle_container'>
+      <Link 
+        to='/'
+        className='headerTitle_container'
+      >
         <h4 className='headerTitle_name'>Armando Bringas</h4>
         <p className='headerTitle_title'>Frontend Developer</p>
-      </div>
+      </Link>
       <Button />
       <nav className='navMenu_container'>
         <ul className='navMenulist'>
@@ -38,7 +41,7 @@ const Header = () => {
             className='navMenuist_item'
           >
             <Link
-              to='/'
+              to='/contact'
               className='navMenuist_link'
             >
               Contact

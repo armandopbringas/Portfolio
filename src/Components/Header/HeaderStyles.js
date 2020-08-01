@@ -11,6 +11,7 @@ export const HeaderContanier = styled.header`
     max-width: 100%;
     margin-left: 2rem;
     line-height: 2rem;
+    text-decoration: none;
   }
 
   .headerTitle_name {
@@ -24,7 +25,7 @@ export const HeaderContanier = styled.header`
   }
   
   .navMenu_container {
-    display: block;
+    display: none;
     margin-right: 2rem;
   }
 
@@ -45,13 +46,14 @@ export const HeaderContanier = styled.header`
     text-decoration: none;
   }
  
+  .headerTitle_container,
   .navMenuist_link:focus {
     outline: none;
   }
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .navMenu_container {
       display: none;
     }
-  }
+  } */
 `

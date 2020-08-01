@@ -43,4 +43,10 @@ width: 75%;
       font-size: 0.8rem;
     }
   }
+
+  @media screen and (max-width: 425px) {
+    .skill__name {
+      font-size: 0.6rem;
+    }
+  }
 `

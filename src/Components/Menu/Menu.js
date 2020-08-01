@@ -34,7 +34,7 @@ const Menu = ({ open, showMenu }) => {
           className='ToggleMenu_item'
         >
           <Link
-            to='/'
+            to='/contact'
             onClick={showMenu}
             className='toggleMenu_link'
           >

@@ -33,6 +33,16 @@ padding: 0 2rem;
             font-size: 0.8rem
         }
     }
+
+    @media screen and (max-width: 425px) {
+        .reposTitle {
+            font-size: 0.8rem;
+        }
+
+        .reposLink {
+            font-size: 0.4rem
+        }
+    }
 }
 
 `
