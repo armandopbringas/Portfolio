@@ -4,7 +4,7 @@ export const SkillsContainer = styled.div`
 width: 100%;
 height: 100%; 
 display: flex;
-margin: 0 2rem;
+margin: 1rem 2rem;
 align-items: flex-end;
 flex-direction: column;
 justify-content: center;
@@ -16,15 +16,9 @@ justify-content: center;
  font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .skillsTitle {
         font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .skillsTitle {
-        font-size: 0.8rem;
     }
 }
 `

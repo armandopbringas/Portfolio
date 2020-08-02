@@ -36,17 +36,13 @@ width: 75%;
     width: ${p => p.level || 0}%;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     width: 100%;
+  }
 
+   @media screen and (max-width: 600px) {
     .skill__name {
       font-size: 0.8rem;
     }
-  }
-
-  @media screen and (max-width: 425px) {
-    .skill__name {
-      font-size: 0.6rem;
-    }
-  }
+  } 
 `

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
-height: 70vh;
+height: 65vh;
 display: flex;
 padding: 0 2em;
 align-items: center;
@@ -31,8 +31,7 @@ justify-content: center;
     margin-right: 0.5em;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 600px) {
     .infoTitle {
         font-size: 1rem;
     }

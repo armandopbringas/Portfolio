@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContanier = styled.header`
-  height: 15vh;
-  padding: 0 2rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

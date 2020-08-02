@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const DescriptionStyles = styled.div`
 height: 100%;
 display: flex;
-margin: 0 2rem;
+margin: 1rem 2rem;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -21,36 +21,18 @@ align-items: flex-start;
 
 @media screen and (max-width: 900px) {
     .descriptionText {
-        width: 85%;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .descriptionText {
-        width: 100%;
-    }
-
+@media screen and (max-width: 600px) {
+    justify-content: flex-start;
     .descriptionTitle {
         font-size: 1rem;
     }
 
     .descriptionText {
         font-size: 0.8rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    justify-content: flex-start;
-}
-
-@media screen and (max-width: 425px) {
-
-    .descriptionTitle {
-        font-size: 0.8rem;
-    }
-
-    .descriptionText {
-        font-size: 0.6rem;
     }
 }
 `

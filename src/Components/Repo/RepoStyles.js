@@ -19,14 +19,14 @@ export const RepoContainer = styled.li`
         margin: 0.25rem 0;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
         .repoLink {
-            font-size: 0.8rem
+            font-size: 1rem
         }
-    }
         .repoUpdate, 
         .repoDescription {
             font-size: 0.8rem;
         }
+    }
 }
 `
