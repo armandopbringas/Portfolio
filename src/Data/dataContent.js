@@ -23,12 +23,12 @@ module.exports = {
         level: 25
       },
       {
-        name: 'React JS',
-        level: 35
+        name: 'Webpack',
+        level: 30
       },
       {
-        name: 'Node JS',
-        level: 25
+        name: 'ReactJS',
+        level: 35
       },
       {
         name: 'Git',
