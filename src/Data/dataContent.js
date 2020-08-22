@@ -8,15 +8,15 @@ module.exports = {
     skills: [
       {
         name: 'HTML 5',
-        level: 50
+        level: 40
       },
       {
         name: 'CSS 3',
-        level: 50
+        level: 40
       },
       {
         name: 'JavaScript',
-        level: 40
+        level: 30
       },
       {
         name: 'Sass',
@@ -28,11 +28,11 @@ module.exports = {
       },
       {
         name: 'ReactJS',
-        level: 35
+        level: 30
       },
       {
         name: 'Git',
-        level: 40
+        level: 35
       }
     ]
   }
