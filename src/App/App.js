@@ -7,7 +7,7 @@ import Contact from '../Pages/Contact'
 
 const App = () => {
   return (
-    <>
+    <div className='container'>
     <Router>
       <Layout>
           <Switch>
@@ -17,7 +17,7 @@ const App = () => {
           </Switch>
       </Layout>
     </Router>
-    </>
+    </div>
   )
 }
 
