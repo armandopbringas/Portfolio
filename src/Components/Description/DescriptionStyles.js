@@ -15,7 +15,7 @@ align-items: flex-start;
 }
 
 .descriptionText {
-    width: 75%;
+    width: 70%;
     line-height: 1.5rem;
 }
 
