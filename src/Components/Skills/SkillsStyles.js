@@ -18,7 +18,7 @@ justify-content: center;
 
 @media screen and (max-width: 600px) {
     .skillsTitle {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 `
